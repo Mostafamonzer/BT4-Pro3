@@ -1,0 +1,325 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ---------------------- nav --------------------------*/
+
+#nav-top{
+  position:sticky;
+  top: 0px;
+  z-index: 1; 
+}
+.good{
+  margin-left: 20px;
+  color: blueviolet;
+}
+.good-head-line{
+  width: .5px;
+  height: 40px;
+  background-color: gray;
+  margin-left: 5px;
+}
+
+.navbar-nav{
+  margin-left: 10px;
+}
+.form-nav1{
+margin-right: 20px;
+}
+
+.btn11{
+  margin-left: 5px;
+}
+
+
+/* -----------------------container main ---------------------- */
+
+.carousel-item img {
+  width: 100%;
+  height: 660px;
+}
+
+/* ------------Section 2- welcome --------------------------*/
+.welcome{
+  margin-top: -20px;
+  width: 100%;
+}
+
+
+
+/* ------------Section 3- popular --------------------------*/
+.popular1 h1 , h2{
+  text-align: center;
+  padding-top: 1%;
+  color: white;
+}
+.popular1 div{
+  background-color: rgb(65, 99, 87);
+  height: 100px;
+}
+/* ------------Section 4- accord --------------------------*/
+.accord{
+  margin-top: 10px;
+}
+.accord a{
+  color: blueviolet;
+  font-weight: bolder;
+  font-size: 20px;
+}
+/* ------------Section 5- trans --------------------------*/
+.trans-title h2{
+  text-align: center;
+  color: white;
+  padding-top: 1%;
+  display: block;
+}
+.trans-title{
+  background-color: rgb(65, 99, 87);
+  height: 100px;
+  border-radius: 5px;
+}
+.trans-all{
+  background-color: aqua;
+  height: 300px;
+}
+.form-group textarea{
+  width: 95%;
+  margin: auto;
+}
+.trans-write{
+  padding-left: 2.5%;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+.copy1{
+  width: 90px;
+  margin-left: 2.5%;
+  color:aqua; 
+
+}
+/* --------------section 8 img fixed----------------------- */
+.container-img{
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/aswan/img12.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* --------------------section 10 divs ----------------------------*/
+#div1{
+  margin-top: 50px;
+  background-color: rgb(240, 236, 230);
+  border-radius: 7px;
+  position: relative;
+ 
+}
+#div1::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  opacity: 0;
+  transition: .8s;
+
+}
+#div1:hover::after{
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+}
+ #div1 img{
+  width: 100%;
+  height: 300px;
+}
+
+/* -----------------------section 12 divs---------------------- */
+#div21{
+  margin:1% auto ;
+}
+#div2{
+  margin-top: 50px;
+  background-color: rgb(240, 236, 230);
+  position: relative;
+
+}
+#div2::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  opacity: 0;
+  transition: .8s;
+
+}
+#div2:hover::after{
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+}
+/* -----------------container 13 fixed img--------------- */
+.container-img2{
+  margin-top: 20px;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/mo-gabrail-iuC3w8mLDcs-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* ----------------------------  section 15 thankse div ---------------------*/
+#thanks-div{
+  position: relative;
+  height: 400px;
+  margin:1% auto;
+  
+}
+#thanks-div:hover{
+  transform: scale(0.9);
+}
+#img-thanks{
+  width: 100px;
+  height: 100px;
+  border-radius:50px;
+ }
+ .dd{
+  position: absolute;
+  height: 400px;
+  width: 95%;
+  border-radius: 10px;
+  opacity: .9;
+  filter: brightness(50%);
+  
+ }
+
+ .thanks-part{
+  margin-top: 50%;
+  width: 100%;
+  font-size: 15px;
+ }
+.thanks-all{
+color: white;
+position: absolute;
+margin-top: 5%;
+margin-left: 10%;
+}
+/*--------------Section 16 Egypt news-----------------------------  */
+.EG-news{
+  border-radius: 15px;
+  border: 10px;
+  background-color: rgb(199, 221, 221);
+ }
+.news-overly{
+  width: 50px;
+  height: 3px;
+  background-color: green;
+}
+.EG-news:hover .news-overly{
+  width: 150px;
+}
+.left-part{
+ 
+  height: 300px;
+}
+.img-news1{
+  width: 100%; 
+  height:100% ;
+  clip-path: polygon(26% -1%, 119% -1%, 120% 101%, 43% 102%);
+}
+.new-icons button {
+  margin-left: 10px;
+  background-color: rgb(235, 231, 231); 
+}
+.img-news2{
+  width: 90%;
+  height:100% ;
+  clip-path: polygon(-2% -8%, 100% -11%, 87% 114%, -3% 112%);
+}
+/* ----------------section 17 join us----------------- */
+#join-us{
+  margin-left: 1%;
+  margin: 3% auto;
+  background-color:darkgrey ;
+  text-align: center;
+  border-radius: 5px;
+}
+#join-us img{
+  border-radius: 18px;
+}
+/* --------------------section 18 footer ---------- */
+.foot1{
+   margin:1% auto;
+   color: rgb(255, 255, 255);
+   text-align: center;
+}
+.foot-underline{
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  margin:2% auto;
+} 
+/* ------------------------media Quary -------------------------------- */
+/* Start Media Quary ---------------   nav bar -------------------------*/
+
+ @media (max-width :767px){
+  #nav-top{
+    height: 80px;
+    text-align: center;
+    }
+
+.good-head-line{
+  visibility: hidden;
+}
+}  
+
+@media (min-width:800px) and (max-width:815px)
+{
+   .form-nav1 input 
+   {
+    width: 50px !important;
+   }
+}
+/* -----------------section 3 popular----------------- */
+@media (max-width:767px){
+.popular1 h1 {
+ font-size: 35px;
+ padding-top: 25px;
+ }
+}
+/* ---------------------------section 14 thanks ------------ */
+@media (max-width:767px){
+.popular h2{
+    padding-top: 50px;
+  }
+}
+/* ------------------- section 16--------------------- */
+  @media (max-width: 767px){
+    .right-part{
+      order: 2;
+    }
+    .left-part{
+      order: 1;
+      /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); */
+    }
+    .img-news2 ,.img-news1 {
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+      width: 100%;
+    }
+    .new-icons button {
+     margin-bottom: 5px;
+     font-size: 14px;
+    }
+  }
+/* -------------------------section 17 Join Us-------------- */
+@media (max-width:767px) {
+  #join-us{
+    width: 400px;
+  }
+}
